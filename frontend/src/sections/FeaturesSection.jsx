@@ -21,7 +21,7 @@ const FeaturesSection = () => {
     {
       title: "Community Forum",
       desc: "Join discussions, ask questions, and connect with others. Trending: Adat, Randai, Kuliner.",
-      img: "https://cdn.antaranews.com/cache/1200x800/2021/08/12/antarafoto-adat-minangkabau-120821-igg-3.jpg",
+      img: "https://salingkamedia.com/wp-content/uploads/2025/07/Kato-Putuih-di-Limbago-Kato-Lalu-di-Mufakat-Filosofi-Musyawarah-Mufakat-Minangkabau.jpg",
       btnText: "Enter Forum",
       icon: <Users className="w-6 h-6 text-[#C8302D]" />,
     },

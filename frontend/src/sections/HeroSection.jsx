@@ -3,38 +3,37 @@ import { Search } from "lucide-react";
 import Button from "../components/Button";
 
 const HeroSection = () => (
-  <section className="relative h-[500px] md:h-[600px] flex items-center justify-center mx-4 md:mx-8 my-6 rounded-3xl overflow-hidden shadow-2xl">
+  <section className="relative h-[560px] md:h-[640px] flex items-center justify-center overflow-hidden">
     <div
-      className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[2000ms] hover:scale-105"
+      className="absolute inset-0 bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:
-          'url("https://images.unsplash.com/photo-1631782537819-1a4e98127447?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+          'url("https://responradio.com/wp-content/uploads/2023/12/Mengungkap-Keunikan-dan-Asal-Usul-Rumah-Gadang-1160x560.jpg")',
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
     </div>
 
-    <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
-      <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 drop-shadow-xl tracking-tight">
-        Tambo: Explore Minangkabau <br className="hidden md:block" />
-        Wisdom & Tradition
+    <div className="relative z-10 text-center px-4 max-w-3xl mx-auto flex flex-col items-center">
+      <h1 className="text-white text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-xl tracking-tight">
+        Eksplor Tradisi dan Budaya Minangkabau
       </h1>
-      <p className="text-gray-200 text-lg md:text-xl mb-10 max-w-2xl mx-auto drop-shadow-md leading-relaxed">
-        Your AI-powered guide to the rich culture, history, and heritage of the
-        Minangkabau people.
+      <p className="text-white/90 text-base md:text-lg mt-4 mb-8 max-w-2xl mx-auto drop-shadow">
+        Pintu gerbang digitalmu menuju filosofi, adat, dan keindahan Ranah
+        Minang yang tak lekang oleh waktu.
       </p>
 
-      <div className="w-full max-w-2xl">
-        <div className="bg-[#FFFBF2]/95 backdrop-blur-sm p-2 rounded-full flex items-center shadow-2xl transform transition-all hover:-translate-y-1 hover:shadow-[#C8302D]/20">
-          <Search className="text-gray-500 ml-4 w-6 h-6 flex-shrink-0" />
+      <div className="w-full max-w-3xl">
+        <div className="bg-white/95 backdrop-blur p-2 rounded-full flex items-center shadow-lg">
+          <Search className="text-gray-500 ml-4 w-5 h-5 flex-shrink-0" />
           <input
             type="text"
-            placeholder="Ask anything about Minang culture..."
-            className="flex-grow bg-transparent border-none focus:ring-0 text-gray-800 px-4 py-3 text-base md:text-lg outline-none w-full placeholder-gray-500"
+            placeholder="Telusuri budaya Minang…"
+            className="flex-grow bg-transparent border-none focus:ring-0 text-gray-800 px-4 py-3 text-sm md:text-base outline-none w-full placeholder-gray-500"
           />
           <Button
             variant="secondary"
-            className="hidden md:block ml-2 rounded-full px-8"
+            className="hidden md:block ml-2 rounded-l-3xl rounded-r-3xl px-6"
           >
             Submit
           </Button>
@@ -44,7 +43,7 @@ const HeroSection = () => (
             variant="secondary"
             className="w-full rounded-full py-3 text-lg shadow-lg"
           >
-            Submit Question
+            Cari
           </Button>
         </div>
       </div>
